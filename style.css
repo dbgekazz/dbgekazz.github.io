@@ -1,0 +1,49 @@
+
+body {
+	background-color: grey;
+	font-family: Impact;
+	/*transform:rotate(-2deg);*/
+}
+.input {
+	background-color: #666;
+	border: 1px;
+	font-size: 70px;
+	color: grey;
+	width: 300px;
+	transition:0.4s;
+}
+.input:hover {
+	background-color:#555;
+	transition:0.4s;
+}
+
+
+.button {
+	display:none;
+	width: 60px;
+	height: 60px;
+	vertical-align: center;
+	background-color: #444;
+	border: 1px;
+	border-radius: 5px;
+}
+#govno {
+	font-family: impact;
+}
+
+*:focus {
+    outline: 0;
+}
+
+.jopa {
+	width:2px;
+	height:2px;
+	transition:1s
+}
+
+.jopa:hover {
+	width: 100%;
+	height: 50%;
+	transition:5s;
+	cursor:none;
+}
